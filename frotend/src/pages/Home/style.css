@@ -1,0 +1,37 @@
+#page-home{
+    background-color: #ddd;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media(min-width:500px){
+    #page-home{
+        background: url('../../assets/backgound.svg') no-repeat right;
+        background-color: #ddd;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }  
+}
+
+#page-home div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#page-home div h2{
+    color: #5A5B5B;
+    margin: 20px;
+}
+
+#page-home Button{
+    margin-bottom: 100px;
+}

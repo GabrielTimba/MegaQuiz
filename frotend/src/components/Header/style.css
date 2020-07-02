@@ -1,0 +1,31 @@
+#header-container{
+    background: #F83C50;
+}
+
+#header-container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 64px;
+    padding: 8px 0;
+    flex: 1;
+}
+
+#header-container nav img {
+    size: 8px;
+}
+
+#header-container nav #link{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width:365px){
+    #header-container nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 16px;
+        padding: 8px 0;
+    } 
+}
