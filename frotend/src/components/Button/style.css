@@ -1,5 +1,5 @@
 button{
-    padding: 5px 24px;
+    padding: 5px 0px;
     border-radius: 20px;
     background: #F83C50;
     border:none;
@@ -8,4 +8,19 @@ button{
     color: #fff !important;
     width: 144px;
     cursor: pointer;
+}
+
+@media(max-width:400px){
+    button{
+        padding: 5px 0px;
+        border-radius: 20px;
+        background: #F83C50;
+        border:none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff !important;
+        width: 104px;
+        cursor: pointer;
+        text-align: center;
+    }
 }

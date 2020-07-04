@@ -64,8 +64,15 @@
 
 .content section{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     width: 90%;
     margin: 0px auto;
 }
+
+@media(min-width:440px){
+    .content section *{
+        margin-right: 10px;
+    }
+}
+
 

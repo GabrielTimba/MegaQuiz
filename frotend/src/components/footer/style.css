@@ -5,3 +5,16 @@ footer {
     align-items: center;
     padding: 16px 0;
 }
+
+footer h4{
+    color: #3E0F14;
+}
+
+footer h4 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer h4 a:hover{
+    color: #F3F4F5;
+}
