@@ -1,20 +1,22 @@
-footer {
+#footer-page {
     background: #F83C50;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 16px 0;
 }
 
-footer h4{
+#footer-page h4{
     color: #3E0F14;
+    font-size: 1.3rem;
 }
 
-footer h4 a{
+#footer-page h4 a{
     text-decoration: none;
     color: #fff;
 }
 
-footer h4 a:hover{
+#footer-page h4 a:hover{
     color: #F3F4F5;
 }

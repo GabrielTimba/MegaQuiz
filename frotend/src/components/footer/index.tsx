@@ -5,7 +5,7 @@ import './style.css';
 
 const Footer=()=>{
     return(
-        <footer>
+        <footer id="footer-page">
             <h4>Desenvolvido a mao & com </h4> 
             <FiHeart size={16} color="#fff"/>
             <h4> 

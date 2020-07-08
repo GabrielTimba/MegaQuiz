@@ -1,23 +1,25 @@
-button{
+.button{
     padding: 5px 0px;
     border-radius: 20px;
     background: #F83C50;
     border:none;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: bold;
+    font-family:Roboto sans-serif;
     color: #fff !important;
     width: 144px;
     cursor: pointer;
 }
 
 @media(max-width:400px){
-    button{
+    .button{
         padding: 5px 0px;
         border-radius: 20px;
         background: #F83C50;
         border:none;
-        font-size: 20px;
+        font-size: 1.3rem;
         font-weight: bold;
+        font-family:Roboto sans-serif;
         color: #fff !important;
         width: 104px;
         cursor: pointer;
