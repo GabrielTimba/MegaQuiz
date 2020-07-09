@@ -24,6 +24,11 @@
     margin: 20px auto;
     padding: 30px;
     border-radius: 6px;
+
+}
+
+.content div h3{
+    font-size: 1.5rem;
 }
 
 .content div ul{
@@ -33,6 +38,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 10px;
     column-gap: 30px;
+    /*pointer-events: none;*/
 }
 
 @media(max-width:500px){
@@ -57,9 +63,18 @@
     transform: scale(1.03);
 }
 
+.content div ul li:after {
+    display: block;
+}
+
+
 .active{
-    border: 1px solid #F83C50;
+    pointer-events: none;
     color: #F83C50;
+}
+
+.block{
+    pointer-events: none;
 }
 
 .content section{
@@ -74,5 +89,6 @@
         margin-right: 10px;
     }
 }
+
 
 
