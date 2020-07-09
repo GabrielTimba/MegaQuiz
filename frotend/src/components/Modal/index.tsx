@@ -22,7 +22,7 @@ const ModalAppearance:React.FC<ModalProps>=({show,toggle,total,score,answered})=
             backdrop="static"
             style={{ maxWidth: "800px" }}
         >
-            <ModalHeader toggle={toggle} className="modal-header">Parabens!</ModalHeader>
+            <ModalHeader toggle={()=>{history.push('/')}} className="modal-header">Parabens!</ModalHeader>
             <ModalBody className="modal-body">
                 <p>
                     Terminou o quiz com a seguinte pontuação:

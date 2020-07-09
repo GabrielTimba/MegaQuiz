@@ -77,17 +77,12 @@ const Quiz:React.FC=()=>{
 
                 <section>
                     {
-                        currentPage===1
-                            ?<Button text="Proximo" click={()=>setCurrentPage(currentPage+1)}/>
-                            :currentPage===totalPage
-                                ?<>
-                                    <Button text="Anterior" click={()=>setCurrentPage(currentPage-1)}/>
-                                    <Button text="Submeter" click={()=>{setShow(true)}}/>
-                                </>
-                                :<>
-                                    <Button text="Anterior" click={()=>setCurrentPage(currentPage-1)}/>
-                                    <Button text="Proximo" click={()=>setCurrentPage(currentPage+1)}/>
-                                </>
+                        currentPage===totalPage
+                            ?
+                                <Button text="Submeter" click={()=>{setShow(true)}}/>
+                            :
+                                <Button text="Proximo" click={()=>setCurrentPage(currentPage+1)}/>
+                            
                     }   
                 </section>
             </main>
