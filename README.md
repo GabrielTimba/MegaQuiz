@@ -39,7 +39,6 @@ This project was developed with the following technologies:
 
 -  [ReactJS](https://reactjs.org/)
 -  [React Router](https://github.com/ReactTraining/react-router)
--  [styled-components](https://www.styled-components.com/)
 -  [React-Icons](https://react-icons.netlify.com/)
 -  [typescript](https://github.com/microsoft/TypeScript)
 -  [VS Code](https://code.visualstudio.com/)
